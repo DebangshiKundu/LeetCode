@@ -1045,111 +1045,111 @@ using namespace std;
 //     else cout<<"palindrome";
 // }
 
-// class stack
-// {
-//     int top;
-//     int *arr;
-//     int size;
+class stack
+{
+    int top;
+    int *arr;
+    int size;
 
-// public:
-//     stack(int sx)
-//     {
-//         size = sx;
-//         top = -1;
-//         arr = new int[size];
-//     }
+public:
+    stack(int sx)
+    {
+        size = sx;
+        top = -1;
+        arr = new int[size];
+    }
 
-//     void push()
-//     {
-//         if (!isFull())
-//         {
-//             cout << "Enter value to push: ";
-//             int val;
-//             cin >> val;
-//             arr[++top] = val;
-//         }
-//         else
-//             cout << "Stack overflow\n";
-//     }
-//     void pop()
-//     {
-//         if (isEmpty())
-//             cout << "Stack underflow\n";
-//         else
-//         {
-//             cout << "\nPopped element:" << arr[top--]<<endl;
-//         }
-//     }
-//     void peek()
-//     {
-//         cout << "element: " << arr[top]<<endl;
-//     }
-//     bool isEmpty()
-//     {
-//         if (top == -1)
-//             return true;
-//         else
-//             return false;
-//     }
-//     bool isFull()
-//     {
-//         return (top == size - 1);
-//     }
-//     void display()
-//     {
-//         cout << "The elements in the stack are: \n";
-//         for (int i = 0; i <= top; i++)
-//             cout << arr[i] << "\t";
-//         cout<<endl;
-//     }
-// };
-// int main()
-// {
-//     cout << "1)push\n2)pop\n3)peek\n4)display stack\n5)isEmpty\n6)isFull7)Exit\n\n";
-//     int ch = 0;
-//     cout << "Enter the size of the stack: ";
-//     int n = 0;
-//     cin >> n;
-//     class stack a(n);
-//     do
-//     {
-//         cout << "Enter choice: ";
-//         cin >> ch;
-//         switch (ch)
-//         {
-//         case 1:
-//             a.push();
-//             break;
-//         case 2:
-//             a.pop();
-//             break;
-//         case 3:
-//             a.peek();
-//             break;
-//         case 4:
-//             a.display();
-//             break;
-//         case 5:
-//             if (a.isEmpty())
-//                 cout << "Stack empty" << endl;
-//             else
-//                 cout << "\nstack not empty" << endl;
-//             break;
-//         case 6:
-//             if (a.isFull())
-//                 cout << "Stack full" << endl;
-//             else
-//                 cout << "\nstack not Full" << endl;
-//             break;
-//         case 7:
-//             cout << "Exit\n";
-//             break;
-//         default:
-//             cout << "Invalid choice\n";
-//             break;
-//         }
-//     } while (ch != 7);
-// }
+    void push()
+    {
+        if (!isFull())
+        {
+            cout << "Enter value to push: ";
+            int val;
+            cin >> val;
+            arr[++top] = val;
+        }
+        else
+            cout << "Stack overflow\n";
+    }
+    void pop()
+    {
+        if (isEmpty())
+            cout << "Stack underflow\n";
+        else
+        {
+            cout << "\nPopped element:" << arr[top--]<<endl;
+        }
+    }
+    void peek()
+    {
+        cout << "element: " << arr[top]<<endl;
+    }
+    bool isEmpty()
+    {
+        if (top == -1)
+            return true;
+        else
+            return false;
+    }
+    bool isFull()
+    {
+        return (top == size - 1);
+    }
+    void display()
+    {
+        cout << "The elements in the stack are: \n";
+        for (int i = 0; i <= top; i++)
+            cout << arr[i] << "\t";
+        cout<<endl;
+    }
+};
+int main()
+{
+    cout << "1)push\n2)pop\n3)peek\n4)display stack\n5)isEmpty\n6)isFull7)Exit\n\n";
+    int ch = 0;
+    cout << "Enter the size of the stack: ";
+    int n = 0;
+    cin >> n;
+    class stack a(n);
+    do
+    {
+        cout << "Enter choice: ";
+        cin >> ch;
+        switch (ch)
+        {
+        case 1:
+            a.push();
+            break;
+        case 2:
+            a.pop();
+            break;
+        case 3:
+            a.peek();
+            break;
+        case 4:
+            a.display();
+            break;
+        case 5:
+            if (a.isEmpty())
+                cout << "Stack empty" << endl;
+            else
+                cout << "\nstack not empty" << endl;
+            break;
+        case 6:
+            if (a.isFull())
+                cout << "Stack full" << endl;
+            else
+                cout << "\nstack not Full" << endl;
+            break;
+        case 7:
+            cout << "Exit\n";
+            break;
+        default:
+            cout << "Invalid choice\n";
+            break;
+        }
+    } while (ch != 7);
+}
 
 /*
 
@@ -1158,76 +1158,76 @@ using namespace std;
 
 
 */
-// class stack
-// {
-//     int top, *arr;
+class stack
+{
+    int top, *arr;
 
-// public:
-//     stack()
-//     {
-//         top = -1;
-//         arr = new int[100];
-//     }
-//     void push(char a)
-//     {
-//         arr[++top] = a;
-//     }
-//     void pop()
-//     {
-//         top--;
-//     }
-//     bool isEmpty()
-//     {
-//         return (top == -1);
-//     }
-//     char peek()
-//     {
-//         return arr[top];
-//     }
-// };
-// int main()
-// {
-//     int i, j, n, flag = 0;
-//     char s[100], ch;
-//     cout << "Enter the string : ";
-//     cin.getline(s, 100);
-//     class stack stack;
-//     for (i = 0; s[i] != '\0'; i++)
-//     {
-//         if (s[i] == '(' or s[i] == '[' or s[i] == '{')
-//             stack.push(s[i]);
-//         if (stack.isEmpty())
-//             flag = 1;
-//         switch (s[i])
-//         {
-//         case ')':
-//             ch = stack.peek();
-//             stack.pop();
-//             if (ch == '{' or ch == '[')
-//                 flag = 1;
-//             break;
-//         case ']':
-//             ch = stack.peek();
-//             stack.pop();
-//             if (ch == '{' or ch == '(')
-//                 flag = 1;
-//             break;
-//         case '}':
-//             ch = stack.peek();
-//             stack.pop();
-//             if (ch == '(' or ch == '[')
-//                 flag = 1;
-//             break;
-//         }
+public:
+    stack()
+    {
+        top = -1;
+        arr = new int[100];
+    }
+    void push(char a)
+    {
+        arr[++top] = a;
+    }
+    void pop()
+    {
+        top--;
+    }
+    bool isEmpty()
+    {
+        return (top == -1);
+    }
+    char peek()
+    {
+        return arr[top];
+    }
+};
+int main()
+{
+    int i, j, n, flag = 0;
+    char s[100], ch;
+    cout << "Enter the string : ";
+    cin.getline(s, 100);
+    class stack stack;
+    for (i = 0; s[i] != '\0'; i++)
+    {
+        if (s[i] == '(' or s[i] == '[' or s[i] == '{')
+            stack.push(s[i]);
+        if (stack.isEmpty())
+            flag = 1;
+        switch (s[i])
+        {
+        case ')':
+            ch = stack.peek();
+            stack.pop();
+            if (ch == '{' or ch == '[')
+                flag = 1;
+            break;
+        case ']':
+            ch = stack.peek();
+            stack.pop();
+            if (ch == '{' or ch == '(')
+                flag = 1;
+            break;
+        case '}':
+            ch = stack.peek();
+            stack.pop();
+            if (ch == '(' or ch == '[')
+                flag = 1;
+            break;
+        }
 
-//     }
-//     if (stack.isEmpty())
-//             flag = 0;
-//     if (flag == 0)
-//             cout << "Balanced";
-//         else
-//             cout << "Not Balanced";
-// }
+    }
+    if (stack.isEmpty())
+            flag = 0;
+    if (flag == 0)
+            cout << "Balanced";
+        else
+            cout << "Not Balanced";
+}
 /*
 
 
@@ -1235,307 +1235,67 @@ using namespace std;
 
 
 */
-// struct Stack
-// {
-//     int top;
-//     int arr[100];
+struct Stack
+{
+    int top;
+    int arr[100];
 
-//     Stack()
-//     {
-//         top = -1;
-//     }
+    Stack()
+    {
+        top = -1;
+    }
 
-//     void push(char a)
-//     {
-//         arr[++top] = a;
-//     }
-//     void pop()
-//     {
-//         top--;
-//     }
-//     char peek()
-//     {
-//         return arr[top];
-//     }
-//     bool isEmpty()
-//     {
-//         return (top == -1);
-//     }
-// };
-// int main()
-// {
-//     int n, i = 0, flag = 0;
-//     char str[100];
-//     cout << "Enter the string: ";
-//     cin.getline(str, 100);
-//     Stack s;
-//     n = strlen(str);
-//     n = n / 2;
-//     if (n % 2 == 0)
-//     {
-//         for (i = 0; i < n; i++)
-//             s.push(str[i]);
-//     }
-//     else
-//     {
-//         for (i = 0; i <= n; i++)
-//             s.push(str[i]);
-//     }
-//     for (i = n; str[i] != '\0'; i++)
-//     {
-//         char ch = s.peek();
-//         s.pop();
-//         if (ch != str[i])
-//         {
-//             flag = 1;
-//             break;
-//         }
-//     }
-//     if (flag == 0)
-//         cout << "Palindrome";
-//     else
-//         cout << "Not a palindrome";
-// }
-
-/*
-
-
-
-
-
-
-*/
-// int prec(char a)
-// {
-//     if (a == '+' or a == '-')
-//         return 1;
-//     else if (a == '*' or a == '/')
-//         return 2;
-//     else if (a == '^')
-//         return 3;
-//     else
-//         return -1;
-// }
-// struct stack
-// {
-//     int arr[100], top;
-//     stack()
-//     {
-//         top = -1;
-//     }
-//     void push(char a)
-//     {
-//         arr[++top] = a;
-//     }
-//     void pop()
-//     {
-//         top--;
-//     }
-//     char peek()
-//     {
-//         return arr[top];
-//     }
-//     bool isEmpty()
-//     {
-//         return (top == -1);
-//     }
-// };
-
-// int main()
-// {
-//     char in[100], post[100], pre[100], temp;
-//     cout << "Enter the infix Expression: ";
-//     cin.getline(in, 100);
-//     stack s;
-//     int n = strlen(in), k = 0, ch = 0;
-//     cout<<"1)postfix\n2)prefix\n\nEnter your choice: ";
-//     cin>>ch;
-//     if (ch == 1)
-//     {
-//         in[n] = ')';
-//         s.push('(');
-//         for (int i = 0; i <= n; i++)
-//         {
-//             if (in[i] == '(' or in[i] == ')')
-//             {
-//                 if (in[i] == '(')
-//                     s.push(in[i]);
-//                 else
-//                 {
-//                     while (s.peek() != '(')
-//                     {
-//                         post[k++] = s.peek();
-//                         s.pop();
-//                     }
-//                     s.pop();
-//                 }
-//             }
-//             else if (in[i] == '+' or in[i] == '-' or in[i] == '*' or in[i] == '/' or in[i] == '^')
-//             {
-//                 while (prec(in[i]) <= prec(s.peek()))
-//                 {
-//                     temp = s.peek();
-//                     post[k++] = temp;
-//                     s.pop();
-//                 }
-//                 s.push(in[i]);
-//             }
-//             else
-//                 post[k++] = in[i];
-//         }
-//         while (!s.isEmpty())
-//         {
-//             temp = s.peek();
-//             post[k++] = temp;
-//             s.pop();
-//         }
-//         cout << "The postfix expression is: " << post;
-//     }
-//     else{
-
-//         for (int i = n-1; i >=0 ; i--)
-//         {
-//             if (in[i] == '(' or in[i] == ')')
-//             {
-//                 if (in[i] == ')')
-//                     s.push(in[i]);
-//                 else
-//                 {
-//                     while (s.peek() != ')')
-//                     {
-//                         pre[k++] = s.peek();
-//                         s.pop();
-//                     }
-//                     s.pop();
-//                 }
-//             }
-//             else if (in[i] == '+' or in[i] == '-' or in[i] == '*' or in[i] == '/' or in[i] == '^')
-//             {
-//                 while (prec(in[i]) < prec(s.peek()))
-//                 {
-//                     temp = s.peek();
-//                     pre[k++] = temp;
-//                     s.pop();
-//                 }
-//                 s.push(in[i]);
-//             }
-//             else
-//                 pre[k++] = in[i];
-//         }
-//         while (!s.isEmpty())
-//         {
-//             temp = s.peek();
-//             pre[k++] = temp;
-//             s.pop();
-//         }
-//         cout << "The postfix expression is: ";
-//         for(int l=k-1;l>=0;l--)
-//         cout<<pre[l];
-//     }
-// }
-
-// struct queue
-// {
-//     int rear, front, size;
-//     int *a;
-//     queue(int sz)
-//     {
-//         rear = 0;
-//         front = 0;
-//         size = sz;
-//         a=new int[size];
-//     }
-//     void enqueue()
-//     {
-//         if (isFull())
-//             cout << "Queue overflow\n";
-//         else
-//         {
-//             cout << "Enqueue value: ";
-//             cin >> a[rear++];
-//         }
-//     }
-//     void dequeue()
-//     {
-//         if (isEmpty())
-//             cout << "Queue underflow\n";
-//         else
-//             front++;
-//     }
-//     bool isEmpty()
-//     {
-//         return (front == rear);
-//     }
-//     bool isFull()
-//     {
-//         return (rear == size);
-//     }
-//     int start()
-//     {
-//         return a[front];
-//     }
-//     int end()
-//     {
-//         return a[rear-1];
-//     }
-//     void display()
-//     {
-//         cout << "The elements in queue are:\n";
-//         for (int i = front; i < rear; i++)
-//             cout << a[i] << "\t";
-//         cout << endl;
-//     }
-// };
-
-// int main()
-// {
-//     cout << "1)enqueue\n2)dequeue\n3)display\n4)isEmpty\n5)isFull\n6)start\n7)end\n8)exit\n\n";
-//     int ch=0, size;
-//     cout << "Enter size of the queue: ";
-//     cin >> size;
-//     queue q(size);
-//     do
-//     {
-//         cout << "Enter choice: ";
-//         cin >> ch;
-//         switch (ch)
-//         {
-//         case 1:
-//             q.enqueue();
-//             break;
-//         case 2:
-//             q.dequeue();
-//             break;
-//         case 3:
-//             q.display();
-//             break;
-//         case 4:
-//             if (q.isEmpty())
-//                 cout << "Queue is empty\n";
-//             else
-//                 cout << "not empty\n";
-//             break;
-//         case 5:
-//             if (q.isFull())
-//                 cout << "queue is full\n";
-//             else
-//                 cout << "not full\n";
-//             break;
-//         case 6:
-//             cout << q.start() << endl;
-//             break;
-//         case 7:
-//             cout << q.end() << endl;
-//             break;
-//         case 8:
-//             cout << "Exit\n";
-//             break;
-//         default:
-//             cout << "Invalid choice\n";
-//             break;
-//         }
-//     } while (ch != 8);
-// }
+    void push(char a)
+    {
+        arr[++top] = a;
+    }
+    void pop()
+    {
+        top--;
+    }
+    char peek()
+    {
+        return arr[top];
+    }
+    bool isEmpty()
+    {
+        return (top == -1);
+    }
+};
+int main()
+{
+    int n, i = 0, flag = 0;
+    char str[100];
+    cout << "Enter the string: ";
+    cin.getline(str, 100);
+    Stack s;
+    n = strlen(str);
+    n = n / 2;
+    if (n % 2 == 0)
+    {
+        for (i = 0; i < n; i++)
+            s.push(str[i]);
+    }
+    else
+    {
+        for (i = 0; i <= n; i++)
+            s.push(str[i]);
+    }
+    for (i = n; str[i] != '\0'; i++)
+    {
+        char ch = s.peek();
+        s.pop();
+        if (ch != str[i])
+        {
+            flag = 1;
+            break;
+        }
+    }
+    if (flag == 0)
+        cout << "Palindrome";
+    else
+        cout << "Not a palindrome";
+}
 
 /*
 
@@ -1544,128 +1304,368 @@ using namespace std;
 
 
 
+*/
+int prec(char a)
+{
+    if (a == '+' or a == '-')
+        return 1;
+    else if (a == '*' or a == '/')
+        return 2;
+    else if (a == '^')
+        return 3;
+    else
+        return -1;
+}
+struct stack
+{
+    int arr[100], top;
+    stack()
+    {
+        top = -1;
+    }
+    void push(char a)
+    {
+        arr[++top] = a;
+    }
+    void pop()
+    {
+        top--;
+    }
+    char peek()
+    {
+        return arr[top];
+    }
+    bool isEmpty()
+    {
+        return (top == -1);
+    }
+};
+
+int main()
+{
+    char in[100], post[100], pre[100], temp;
+    cout << "Enter the infix Expression: ";
+    cin.getline(in, 100);
+    stack s;
+    int n = strlen(in), k = 0, ch = 0;
+    cout<<"1)postfix\n2)prefix\n\nEnter your choice: ";
+    cin>>ch;
+    if (ch == 1)
+    {
+        in[n] = ')';
+        s.push('(');
+        for (int i = 0; i <= n; i++)
+        {
+            if (in[i] == '(' or in[i] == ')')
+            {
+                if (in[i] == '(')
+                    s.push(in[i]);
+                else
+                {
+                    while (s.peek() != '(')
+                    {
+                        post[k++] = s.peek();
+                        s.pop();
+                    }
+                    s.pop();
+                }
+            }
+            else if (in[i] == '+' or in[i] == '-' or in[i] == '*' or in[i] == '/' or in[i] == '^')
+            {
+                while (prec(in[i]) <= prec(s.peek()))
+                {
+                    temp = s.peek();
+                    post[k++] = temp;
+                    s.pop();
+                }
+                s.push(in[i]);
+            }
+            else
+                post[k++] = in[i];
+        }
+        while (!s.isEmpty())
+        {
+            temp = s.peek();
+            post[k++] = temp;
+            s.pop();
+        }
+        cout << "The postfix expression is: " << post;
+    }
+    else{
+
+        for (int i = n-1; i >=0 ; i--)
+        {
+            if (in[i] == '(' or in[i] == ')')
+            {
+                if (in[i] == ')')
+                    s.push(in[i]);
+                else
+                {
+                    while (s.peek() != ')')
+                    {
+                        pre[k++] = s.peek();
+                        s.pop();
+                    }
+                    s.pop();
+                }
+            }
+            else if (in[i] == '+' or in[i] == '-' or in[i] == '*' or in[i] == '/' or in[i] == '^')
+            {
+                while (prec(in[i]) < prec(s.peek()))
+                {
+                    temp = s.peek();
+                    pre[k++] = temp;
+                    s.pop();
+                }
+                s.push(in[i]);
+            }
+            else
+                pre[k++] = in[i];
+        }
+        while (!s.isEmpty())
+        {
+            temp = s.peek();
+            pre[k++] = temp;
+            s.pop();
+        }
+        cout << "The postfix expression is: ";
+        for(int l=k-1;l>=0;l--)
+        cout<<pre[l];
+    }
+}
+
+struct queue
+{
+    int rear, front, size;
+    int *a;
+    queue(int sz)
+    {
+        rear = 0;
+        front = 0;
+        size = sz;
+        a=new int[size];
+    }
+    void enqueue()
+    {
+        if (isFull())
+            cout << "Queue overflow\n";
+        else
+        {
+            cout << "Enqueue value: ";
+            cin >> a[rear++];
+        }
+    }
+    void dequeue()
+    {
+        if (isEmpty())
+            cout << "Queue underflow\n";
+        else
+            front++;
+    }
+    bool isEmpty()
+    {
+        return (front == rear);
+    }
+    bool isFull()
+    {
+        return (rear == size);
+    }
+    int start()
+    {
+        return a[front];
+    }
+    int end()
+    {
+        return a[rear-1];
+    }
+    void display()
+    {
+        cout << "The elements in queue are:\n";
+        for (int i = front; i < rear; i++)
+            cout << a[i] << "\t";
+        cout << endl;
+    }
+};
+
+int main()
+{
+    cout << "1)enqueue\n2)dequeue\n3)display\n4)isEmpty\n5)isFull\n6)start\n7)end\n8)exit\n\n";
+    int ch=0, size;
+    cout << "Enter size of the queue: ";
+    cin >> size;
+    queue q(size);
+    do
+    {
+        cout << "Enter choice: ";
+        cin >> ch;
+        switch (ch)
+        {
+        case 1:
+            q.enqueue();
+            break;
+        case 2:
+            q.dequeue();
+            break;
+        case 3:
+            q.display();
+            break;
+        case 4:
+            if (q.isEmpty())
+                cout << "Queue is empty\n";
+            else
+                cout << "not empty\n";
+            break;
+        case 5:
+            if (q.isFull())
+                cout << "queue is full\n";
+            else
+                cout << "not full\n";
+            break;
+        case 6:
+            cout << q.start() << endl;
+            break;
+        case 7:
+            cout << q.end() << endl;
+            break;
+        case 8:
+            cout << "Exit\n";
+            break;
+        default:
+            cout << "Invalid choice\n";
+            break;
+        }
+    } while (ch != 8);
+}
+
+/*
+
+
+
+
+
+
 
 */
-// struct queue
-// {
-//     int rear, front, size,c;
-//     int *a;
-//     queue(int sz)
-//     {
-//         rear = 0;
-//         front = 0;
-//         size = sz;
-//         c=0;
-//         a = new int[size];
-//     }
-//     void enqueue()
-//     {
-//         if (isFull())
-//             cout << "Queue overflow\n";
-//         else
-//         {
-//             if (rear == size && front > 0)
-//                 rear = 0;
-//             cout << "Enqueue value: ";
-//             cin >> a[rear++];
-//             c++;
-//         }
-//     }
-//     void dequeue()
-//     {
-//         if (isEmpty())
-//             cout << "Queue underflow\n";
-//         else
-//         {
-//             if (front == size and rear > 0)
-//                 front = 0;
-//             front++;
-//             c--;
-//         }
-//     }
-//     bool isEmpty()
-//     {
-//         return (c==0);
-//     }
-//     bool isFull()
-//     {
-//         return (c==size);
-//     }
-//     int start()
-//     {
-//         return a[front];
-//     }
-//     int end()
-//     {
-//         return a[rear - 1];
-//     }
-//     void display()
-//     {
-//         cout << "The elements in queue are:\n";
-//         if(rear>front){
-//         for (int i = front; i < rear; i++)
-//             cout << a[i] << "\t";
-//         cout << endl;
-//         }
-//         else{
-//             for(int i=front;i<size;i++)
-//             cout<<a[i]<<"\t";
-//             for(int j=0;j<rear;j++)
-//             cout<<a[j]<<"\t";
-//             cout<<endl;
-//         }
-//     }
-// };
+struct queue
+{
+    int rear, front, size,c;
+    int *a;
+    queue(int sz)
+    {
+        rear = 0;
+        front = 0;
+        size = sz;
+        c=0;
+        a = new int[size];
+    }
+    void enqueue()
+    {
+        if (isFull())
+            cout << "Queue overflow\n";
+        else
+        {
+            if (rear == size && front > 0)
+                rear = 0;
+            cout << "Enqueue value: ";
+            cin >> a[rear++];
+            c++;
+        }
+    }
+    void dequeue()
+    {
+        if (isEmpty())
+            cout << "Queue underflow\n";
+        else
+        {
+            if (front == size and rear > 0)
+                front = 0;
+            front++;
+            c--;
+        }
+    }
+    bool isEmpty()
+    {
+        return (c==0);
+    }
+    bool isFull()
+    {
+        return (c==size);
+    }
+    int start()
+    {
+        return a[front];
+    }
+    int end()
+    {
+        return a[rear - 1];
+    }
+    void display()
+    {
+        cout << "The elements in queue are:\n";
+        if(rear>front){
+        for (int i = front; i < rear; i++)
+            cout << a[i] << "\t";
+        cout << endl;
+        }
+        else{
+            for(int i=front;i<size;i++)
+            cout<<a[i]<<"\t";
+            for(int j=0;j<rear;j++)
+            cout<<a[j]<<"\t";
+            cout<<endl;
+        }
+    }
+};
 
-// int main()
-// {
-//     cout << "1)enqueue\n2)dequeue\n3)display\n4)isEmpty\n5)isFull\n6)start\n7)end\n8)exit\n\n";
-//     int ch = 0, size;
-//     cout << "Enter size of the queue: ";
-//     cin >> size;
-//     queue q(size);
-//     do
-//     {
-//         cout << "Enter choice: ";
-//         cin >> ch;
-//         switch (ch)
-//         {
-//         case 1:
-//             q.enqueue();
-//             break;
-//         case 2:
-//             q.dequeue();
-//             break;
-//         case 3:
-//             q.display();
-//             break;
-//         case 4:
-//             if (q.isEmpty())
-//                 cout << "Queue is empty\n";
-//             else
-//                 cout << "not empty\n";
-//             break;
-//         case 5:
-//             if (q.isFull())
-//                 cout << "queue is full\n";
-//             else
-//                 cout << "not full\n";
-//             break;
-//         case 6:
-//             cout << q.start() << endl;
-//             break;
-//         case 7:
-//             cout << q.end() << endl;
-//             break;
-//         case 8:
-//             cout << "Exit\n";
-//             break;
-//         default:
-//             cout << "Invalid choice\n";
-//             break;
-//         }
-//     } while (ch != 8);
-// }
+int main()
+{
+    cout << "1)enqueue\n2)dequeue\n3)display\n4)isEmpty\n5)isFull\n6)start\n7)end\n8)exit\n\n";
+    int ch = 0, size;
+    cout << "Enter size of the queue: ";
+    cin >> size;
+    queue q(size);
+    do
+    {
+        cout << "Enter choice: ";
+        cin >> ch;
+        switch (ch)
+        {
+        case 1:
+            q.enqueue();
+            break;
+        case 2:
+            q.dequeue();
+            break;
+        case 3:
+            q.display();
+            break;
+        case 4:
+            if (q.isEmpty())
+                cout << "Queue is empty\n";
+            else
+                cout << "not empty\n";
+            break;
+        case 5:
+            if (q.isFull())
+                cout << "queue is full\n";
+            else
+                cout << "not full\n";
+            break;
+        case 6:
+            cout << q.start() << endl;
+            break;
+        case 7:
+            cout << q.end() << endl;
+            break;
+        case 8:
+            cout << "Exit\n";
+            break;
+        default:
+            cout << "Invalid choice\n";
+            break;
+        }
+    } while (ch != 8);
+}
 
 
 
