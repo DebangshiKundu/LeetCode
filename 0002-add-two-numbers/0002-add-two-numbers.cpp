@@ -45,29 +45,29 @@ public:
 //         return result;
         
     
-        ListNode* result = new ListNode(0);
-        ListNode* tempResult = result;
-        int carry = 0;
+        ListNode* res = new ListNode(0);
+        ListNode* temp = res;
+        int c = 0;
         
         while (l1 != nullptr || l2 != nullptr) {
             int x = (l1 != nullptr) ? l1->val : 0;
             int y = (l2 != nullptr) ? l2->val : 0;
-            int sum = x + y + carry;
+            int sum = x + y + c;
             
-            carry = sum / 10;
-            tempResult->next = new ListNode(sum % 10);
+            c = sum / 10;
+            temp->next = new ListNode(sum % 10);
             
             if (l1 != nullptr) l1 = l1->next;
             if (l2 != nullptr) l2 = l2->next;
             
-            tempResult = tempResult->next;
+            temp =temp->next;
         }
         
-        if (carry > 0) {
-            tempResult->next = new ListNode(carry);
+        if (c > 0) {
+            temp->next = new ListNode(c);
         }
         
-        return result->next;
+        return res->next;
 
 
         
