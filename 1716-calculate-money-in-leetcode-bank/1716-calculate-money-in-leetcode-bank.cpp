@@ -1,20 +1,14 @@
 class Solution {
 public:
     int totalMoney(int n) {
-        int i=0,res=0,base=28;
-        if(n<8)
+        int m=1,ans=0;
+        while(n>0)
         {
-            for(int j=0;j<=n;j++)
-                res+=j;
-            return res;
+            for(int i=0;i<min(n,7);i++)
+                ans+=m+i;
+            n-=7;
+            m++;
         }
-        else
-        {
-            int mul=n/7;
-            res=(base*mul)+(mul*(mul-1)/2)*7;
-            for(int j=mul+1;i<n%7;j++,i++)
-                res+=j;
-            return res;
-        }        
+        return ans;
     }
 };
