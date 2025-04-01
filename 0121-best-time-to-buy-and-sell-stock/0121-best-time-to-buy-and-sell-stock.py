@@ -8,7 +8,7 @@ class Solution:
         # else: return mx
 
         mx,mn=0,nums[0]
-        for i in range(len(nums)):
+        for i in range(1,len(nums)):
             mn=min(mn,nums[i])
             mx=max(mx,nums[i]-mn)
         return mx
