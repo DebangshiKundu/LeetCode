@@ -46,6 +46,7 @@
 | ------- |
 | [0048-rotate-image](https://github.com/DebangshiKundu/LeetCode/tree/master/0048-rotate-image) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
+| [1500-count-largest-group](https://github.com/DebangshiKundu/LeetCode/tree/master/1500-count-largest-group) |
 ## Matrix
 |  |
 | ------- |
@@ -63,6 +64,7 @@
 |  |
 | ------- |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
+| [1500-count-largest-group](https://github.com/DebangshiKundu/LeetCode/tree/master/1500-count-largest-group) |
 ## Greedy
 |  |
 | ------- |
