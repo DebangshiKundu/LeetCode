@@ -15,6 +15,7 @@
 | [0287-find-the-duplicate-number](https://github.com/DebangshiKundu/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [2249-count-the-hidden-sequences](https://github.com/DebangshiKundu/LeetCode/tree/master/2249-count-the-hidden-sequences) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Dynamic Programming
 |  |
@@ -55,6 +56,7 @@
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/DebangshiKundu/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Bit Manipulation
 |  |
@@ -73,4 +75,9 @@
 |  |
 | ------- |
 | [2249-count-the-hidden-sequences](https://github.com/DebangshiKundu/LeetCode/tree/master/2249-count-the-hidden-sequences) |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
+## Sliding Window
+|  |
+| ------- |
+| [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 <!---LeetCode Topics End-->
