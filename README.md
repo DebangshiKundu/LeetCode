@@ -17,6 +17,7 @@
 | [2249-count-the-hidden-sequences](https://github.com/DebangshiKundu/LeetCode/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/DebangshiKundu/LeetCode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -80,4 +81,5 @@
 |  |
 | ------- |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/DebangshiKundu/LeetCode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 <!---LeetCode Topics End-->
