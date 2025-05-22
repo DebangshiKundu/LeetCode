@@ -8,6 +8,7 @@
 | [0048-rotate-image](https://github.com/DebangshiKundu/LeetCode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/DebangshiKundu/LeetCode/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/DebangshiKundu/LeetCode/tree/master/0056-merge-intervals) |
+| [0074-search-a-2d-matrix](https://github.com/DebangshiKundu/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/DebangshiKundu/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/DebangshiKundu/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/DebangshiKundu/LeetCode/tree/master/0118-pascals-triangle) |
@@ -53,9 +54,11 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/DebangshiKundu/LeetCode/tree/master/0048-rotate-image) |
+| [0074-search-a-2d-matrix](https://github.com/DebangshiKundu/LeetCode/tree/master/0074-search-a-2d-matrix) |
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/DebangshiKundu/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0287-find-the-duplicate-number](https://github.com/DebangshiKundu/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
