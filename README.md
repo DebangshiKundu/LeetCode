@@ -48,6 +48,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/DebangshiKundu/LeetCode/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/DebangshiKundu/LeetCode/tree/master/0050-powx-n) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1500-count-largest-group](https://github.com/DebangshiKundu/LeetCode/tree/master/1500-count-largest-group) |
 ## Matrix
@@ -85,4 +86,8 @@
 | ------- |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/DebangshiKundu/LeetCode/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/DebangshiKundu/LeetCode/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
