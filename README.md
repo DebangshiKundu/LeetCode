@@ -13,6 +13,7 @@
 | [0088-merge-sorted-array](https://github.com/DebangshiKundu/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0118-pascals-triangle](https://github.com/DebangshiKundu/LeetCode/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DebangshiKundu/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
 | [0287-find-the-duplicate-number](https://github.com/DebangshiKundu/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [2249-count-the-hidden-sequences](https://github.com/DebangshiKundu/LeetCode/tree/master/2249-count-the-hidden-sequences) |
@@ -37,12 +38,14 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/DebangshiKundu/LeetCode/tree/master/0053-maximum-subarray) |
+| [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
 ## Sorting
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/DebangshiKundu/LeetCode/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/DebangshiKundu/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/DebangshiKundu/LeetCode/tree/master/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Math
 |  |
@@ -70,6 +73,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1500-count-largest-group](https://github.com/DebangshiKundu/LeetCode/tree/master/1500-count-largest-group) |
 ## Greedy
@@ -90,4 +94,8 @@
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/DebangshiKundu/LeetCode/tree/master/0050-powx-n) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
