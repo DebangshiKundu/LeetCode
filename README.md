@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/DebangshiKundu/LeetCode/tree/master/0001-two-sum) |
 | [0031-next-permutation](https://github.com/DebangshiKundu/LeetCode/tree/master/0031-next-permutation) |
 | [0048-rotate-image](https://github.com/DebangshiKundu/LeetCode/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/DebangshiKundu/LeetCode/tree/master/0053-maximum-subarray) |
@@ -80,6 +81,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/DebangshiKundu/LeetCode/tree/master/0001-two-sum) |
 | [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/DebangshiKundu/LeetCode/tree/master/0229-majority-element-ii) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
