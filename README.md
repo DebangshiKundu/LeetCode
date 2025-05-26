@@ -16,6 +16,7 @@
 | [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/DebangshiKundu/LeetCode/tree/master/0229-majority-element-ii) |
 | [0287-find-the-duplicate-number](https://github.com/DebangshiKundu/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0493-reverse-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/0493-reverse-pairs) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [2249-count-the-hidden-sequences](https://github.com/DebangshiKundu/LeetCode/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -41,6 +42,7 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/DebangshiKundu/LeetCode/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
+| [0493-reverse-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/0493-reverse-pairs) |
 ## Sorting
 |  |
 | ------- |
@@ -68,6 +70,7 @@
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/DebangshiKundu/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0287-find-the-duplicate-number](https://github.com/DebangshiKundu/LeetCode/tree/master/0287-find-the-duplicate-number) |
+| [0493-reverse-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/0493-reverse-pairs) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Bit Manipulation
@@ -108,4 +111,20 @@
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/DebangshiKundu/LeetCode/tree/master/0062-unique-paths) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/0493-reverse-pairs) |
+## Segment Tree
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/0493-reverse-pairs) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
