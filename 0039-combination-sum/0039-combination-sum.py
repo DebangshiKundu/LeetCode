@@ -1,20 +1,17 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
-        res = []
-
-        def make_combination(idx, comb, total):
-            if total == target:
+        res=[]
+        def make_comb(idx,comb,t):
+            if t==target:
                 res.append(comb[:])
                 return
-            
-            if total > target or idx >= len(candidates):
+            elif t>target or idx>=len(candidates):
                 return
-            
-            comb.append(candidates[idx])
-            make_combination(idx, comb, total + candidates[idx])
-            comb.pop()
-            make_combination(idx+1, comb, total)
+            else:
+                comb.append(candidates[idx])
+                make_comb(idx,comb,t+candidates[idx])
+                comb.pop()
+                make_comb(idx+1,comb,t)
 
-            return res
-
-        return make_combination(0, [], 0)
+        make_comb(0,[],0)
+        return res
