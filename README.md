@@ -81,6 +81,7 @@
 | [0002-add-two-numbers](https://github.com/DebangshiKundu/LeetCode/tree/master/0002-add-two-numbers) |
 | [0048-rotate-image](https://github.com/DebangshiKundu/LeetCode/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/DebangshiKundu/LeetCode/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/DebangshiKundu/LeetCode/tree/master/0060-permutation-sequence) |
 | [0062-unique-paths](https://github.com/DebangshiKundu/LeetCode/tree/master/0062-unique-paths) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1500-count-largest-group](https://github.com/DebangshiKundu/LeetCode/tree/master/1500-count-largest-group) |
@@ -139,6 +140,7 @@
 | [0021-merge-two-sorted-lists](https://github.com/DebangshiKundu/LeetCode/tree/master/0021-merge-two-sorted-lists) |
 | [0025-reverse-nodes-in-k-group](https://github.com/DebangshiKundu/LeetCode/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/DebangshiKundu/LeetCode/tree/master/0050-powx-n) |
+| [0060-permutation-sequence](https://github.com/DebangshiKundu/LeetCode/tree/master/0060-permutation-sequence) |
 | [0206-reverse-linked-list](https://github.com/DebangshiKundu/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/DebangshiKundu/LeetCode/tree/master/0234-palindrome-linked-list) |
 ## Counting
