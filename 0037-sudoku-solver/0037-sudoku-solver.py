@@ -22,8 +22,8 @@ class Solution:
                 return back(r+1,0)
             if board[r][c]!='.':
                 return back(r,c+1)
+            idx=(r//3)*3+(c//3)
             for d in map(str,range(1,10)):
-                idx=(r//3)*3+(c//3)
                 if d not in box[idx] and d not in col[c] and d not in row[r]:
                     row[r].add(d)
                     col[c].add(d)
