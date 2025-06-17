@@ -205,6 +205,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/DebangshiKundu/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0225-implement-stack-using-queues](https://github.com/DebangshiKundu/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0234-palindrome-linked-list](https://github.com/DebangshiKundu/LeetCode/tree/master/0234-palindrome-linked-list) |
 ## Monotonic Stack
 |  |
@@ -219,4 +220,12 @@
 | [0046-permutations](https://github.com/DebangshiKundu/LeetCode/tree/master/0046-permutations) |
 | [0051-n-queens](https://github.com/DebangshiKundu/LeetCode/tree/master/0051-n-queens) |
 | [0090-subsets-ii](https://github.com/DebangshiKundu/LeetCode/tree/master/0090-subsets-ii) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/DebangshiKundu/LeetCode/tree/master/0225-implement-stack-using-queues) |
+## Queue
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/DebangshiKundu/LeetCode/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
