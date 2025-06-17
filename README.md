@@ -182,6 +182,7 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/DebangshiKundu/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0020-valid-parentheses](https://github.com/DebangshiKundu/LeetCode/tree/master/0020-valid-parentheses) |
 ## Linked List
 |  |
 | ------- |
@@ -204,6 +205,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/DebangshiKundu/LeetCode/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/DebangshiKundu/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0225-implement-stack-using-queues](https://github.com/DebangshiKundu/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/DebangshiKundu/LeetCode/tree/master/0232-implement-queue-using-stacks) |
