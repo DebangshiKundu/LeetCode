@@ -30,6 +30,7 @@
 | [0287-find-the-duplicate-number](https://github.com/DebangshiKundu/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0485-max-consecutive-ones](https://github.com/DebangshiKundu/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/0493-reverse-pairs) |
+| [0496-next-greater-element-i](https://github.com/DebangshiKundu/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [2249-count-the-hidden-sequences](https://github.com/DebangshiKundu/LeetCode/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/DebangshiKundu/LeetCode/tree/master/2394-count-subarrays-with-score-less-than-k) |
@@ -121,6 +122,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/DebangshiKundu/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/DebangshiKundu/LeetCode/tree/master/0229-majority-element-ii) |
+| [0496-next-greater-element-i](https://github.com/DebangshiKundu/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1500-count-largest-group](https://github.com/DebangshiKundu/LeetCode/tree/master/1500-count-largest-group) |
 ## Greedy
@@ -210,10 +212,12 @@
 | [0225-implement-stack-using-queues](https://github.com/DebangshiKundu/LeetCode/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/DebangshiKundu/LeetCode/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/DebangshiKundu/LeetCode/tree/master/0234-palindrome-linked-list) |
+| [0496-next-greater-element-i](https://github.com/DebangshiKundu/LeetCode/tree/master/0496-next-greater-element-i) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/DebangshiKundu/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0496-next-greater-element-i](https://github.com/DebangshiKundu/LeetCode/tree/master/0496-next-greater-element-i) |
 ## Backtracking
 |  |
 | ------- |
