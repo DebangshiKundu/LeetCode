@@ -253,4 +253,20 @@
 | ------- |
 | [0146-lru-cache](https://github.com/DebangshiKundu/LeetCode/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/DebangshiKundu/LeetCode/tree/master/0460-lfu-cache) |
+## Tree
+|  |
+| ------- |
+| [1035-cousins-in-binary-tree](https://github.com/DebangshiKundu/LeetCode/tree/master/1035-cousins-in-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [1035-cousins-in-binary-tree](https://github.com/DebangshiKundu/LeetCode/tree/master/1035-cousins-in-binary-tree) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1035-cousins-in-binary-tree](https://github.com/DebangshiKundu/LeetCode/tree/master/1035-cousins-in-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [1035-cousins-in-binary-tree](https://github.com/DebangshiKundu/LeetCode/tree/master/1035-cousins-in-binary-tree) |
 <!---LeetCode Topics End-->
