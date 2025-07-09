@@ -1,35 +1,38 @@
 # Definition for singly-linked list.
-# class ListNode:
+# class ListNode(object):
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class Solution:
-    def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
-        def reverse(start: ListNode, k: int) -> Tuple[ListNode, ListNode]:
-            prev = None
-            curr = start
-            for _ in range(k):
-                nxt = curr.next
-                curr.next = prev
-                prev = curr
-                curr = nxt
-            return prev, start  
+class Solution(object):
+    def reverseKGroup(self, head, k):
+        """
+        :type head: Optional[ListNode]
+        :type k: int
+        :rtype: Optional[ListNode]
+        """
+        dummy=ListNode(0)
+        dummy.next=head
+        grp_prev=dummy
+        
+        def rev(start,grp_next):
+            curr=start
+            prev=grp_next
+            for i in range(k):
+                temp=curr.next
+                curr.next=prev
+                prev=curr
+                curr=temp
 
-        dummy = ListNode(0)
-        dummy.next = head
-        group_prev = dummy
-
+            return prev
         while True:
-            kth = group_prev
-            for _ in range(k):
-                kth = kth.next
+
+            kth=grp_prev
+            for i in range(k):
+                kth=kth.next
                 if not kth:
                     return dummy.next
-
-            group_next = kth.next
-            prev, tail = reverse(group_prev.next, k)
-            tail.next = group_next
-            temp = group_prev.next
-            group_prev.next = prev
-            group_prev = temp
-              
+            grp_next=kth.next
+            start=rev(grp_prev.next,grp_next)
+            temp=grp_prev.next
+            grp_prev.next=start
+            grp_prev=temp
