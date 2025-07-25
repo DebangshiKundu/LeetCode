@@ -27,6 +27,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DebangshiKundu/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0128-longest-consecutive-sequence](https://github.com/DebangshiKundu/LeetCode/tree/master/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/DebangshiKundu/LeetCode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/DebangshiKundu/LeetCode/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/DebangshiKundu/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0287-find-the-duplicate-number](https://github.com/DebangshiKundu/LeetCode/tree/master/0287-find-the-duplicate-number) |
@@ -79,6 +80,7 @@
 | [0075-sort-colors](https://github.com/DebangshiKundu/LeetCode/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/DebangshiKundu/LeetCode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/DebangshiKundu/LeetCode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/DebangshiKundu/LeetCode/tree/master/0229-majority-element-ii) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Math
@@ -124,6 +126,7 @@
 | [0146-lru-cache](https://github.com/DebangshiKundu/LeetCode/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/DebangshiKundu/LeetCode/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/DebangshiKundu/LeetCode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/DebangshiKundu/LeetCode/tree/master/0229-majority-element-ii) |
 | [0460-lfu-cache](https://github.com/DebangshiKundu/LeetCode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/DebangshiKundu/LeetCode/tree/master/0496-next-greater-element-i) |
