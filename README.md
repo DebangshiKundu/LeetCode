@@ -82,6 +82,7 @@
 | [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/DebangshiKundu/LeetCode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/DebangshiKundu/LeetCode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/DebangshiKundu/LeetCode/tree/master/0242-valid-anagram) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DebangshiKundu/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Math
 |  |
@@ -128,6 +129,7 @@
 | [0169-majority-element](https://github.com/DebangshiKundu/LeetCode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/DebangshiKundu/LeetCode/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/DebangshiKundu/LeetCode/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/DebangshiKundu/LeetCode/tree/master/0242-valid-anagram) |
 | [0460-lfu-cache](https://github.com/DebangshiKundu/LeetCode/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/DebangshiKundu/LeetCode/tree/master/0496-next-greater-element-i) |
 | [0797-rabbits-in-forest](https://github.com/DebangshiKundu/LeetCode/tree/master/0797-rabbits-in-forest) |
@@ -193,6 +195,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/DebangshiKundu/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/DebangshiKundu/LeetCode/tree/master/0020-valid-parentheses) |
+| [0242-valid-anagram](https://github.com/DebangshiKundu/LeetCode/tree/master/0242-valid-anagram) |
 ## Linked List
 |  |
 | ------- |
