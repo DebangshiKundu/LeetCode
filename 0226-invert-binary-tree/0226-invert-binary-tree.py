@@ -12,13 +12,23 @@ class Solution(object):
         """
         if not root: return
 
-        temp=root.right
-        root.right=root.left
-        root.left=temp
+        # temp=root.right
+        # root.right=root.left
+        # root.left=temp
 
-        self.invertTree(root.left)
-        self.invertTree(root.right)
+        # self.invertTree(root.left)
+        # self.invertTree(root.right)
 
+        # return root
+
+        stack=[root]
+        while stack:
+            n=stack.pop()
+            n.right,n.left=n.left,n.right
+            if n.right:
+                stack.append(n.right)
+            if n.left:
+                stack.append(n.left)
         return root
 
         
